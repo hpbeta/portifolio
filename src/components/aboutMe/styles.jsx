@@ -6,7 +6,7 @@ export const Container = styled.div`
   align-items: center;
   justify-content: center;
    max-width: 1300px; 
-  margin: 80px auto;
+  margin: 150px auto;
 `;
 export const ContainerAboutMe = styled.div`
   display: flex;

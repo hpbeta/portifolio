@@ -2,7 +2,7 @@ import { styled } from "styled-components"
 
 export const Container = styled.div`
   text-align: center;
-  margin-top: 30px ;
+  margin: 90px ;
 h2{
   margin-bottom: 20px;
   font-size: 30px;
