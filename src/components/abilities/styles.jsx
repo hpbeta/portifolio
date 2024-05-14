@@ -1,8 +1,4 @@
 import { styled } from "styled-components";
-import { FaHtml5 } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io5";
-import { IoLogoCss3 } from "react-icons/io5";
-import { FaReact } from "react-icons/fa";
 
 export const Container = styled.div`
   display: flex;
@@ -27,14 +23,14 @@ export const ContainerAbilities = styled.div`
   text-align: center;
   gap: 20px;
   max-width: 1200px;
-  div{
-    &:hover{
-      color: #FFFF00;
+  div {
+    &:hover {
+      color: #ffff00;
     }
-    p{
-      @media(max-width: 414px){
-      width: 300px;
-    }
+    p {
+      @media (max-width: 414px) {
+        width: 300px;
+      }
     }
   }
 `;

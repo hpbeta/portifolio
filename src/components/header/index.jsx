@@ -2,7 +2,6 @@ import { useContext } from "react";
 import { ContainerHeader, Icon } from "./styles";
 import { ThemeContext, themes } from "../../contexts/theme-contexts";
 
-
 export function Header({scrollToSection}){
     const {theme, setTheme } = useContext(ThemeContext)
 

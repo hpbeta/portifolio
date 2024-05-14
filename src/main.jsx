@@ -10,11 +10,10 @@ import "swiper/css/scrollbar"
 import 'swiper/css/effect-coverflow';
 import { ThemeProvider } from './contexts/theme-contexts.jsx'
 
-
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-   <ThemeProvider >
-    <Home />
-   </ThemeProvider>
+    <ThemeProvider >
+        <Home />
+    </ThemeProvider>
   </React.StrictMode>,
 )
