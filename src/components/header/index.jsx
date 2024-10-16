@@ -1,19 +1,11 @@
-import { useContext } from "react";
-import { ContainerHeader, Icon } from "./styles";
-import { ThemeContext, themes } from "../../contexts/theme-contexts";
+
+import { ContainerHeader } from "./styles";
+
 
 export function Header({scrollToSection}){
-    const {theme, setTheme } = useContext(ThemeContext)
+ 
 
-    function HandleClick(){
-    
-        if(theme === themes.light){
-            setTheme(themes.dark)
-        }else{
-            setTheme(themes.light)
-        }
-    }
-
+ 
     return(
         <ContainerHeader id="header">
            <a href="#"><p>João <span>Lucas</span></p></a>
@@ -26,7 +18,7 @@ export function Header({scrollToSection}){
                      <a><li onClick={()=>scrollToSection("footer")}>Contato</li></a>
                 </ul>
             </nav>
-            <Icon onClick={HandleClick} />
+          
         </ContainerHeader>
     )
 }

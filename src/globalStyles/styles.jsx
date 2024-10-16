@@ -6,10 +6,11 @@ export const GlobalStyles = createGlobalStyle`
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #202124;
    }
    body{
-      background: ${({ theme }) => theme.background};
-      color: ${({ theme }) => theme.color};
+      color: #ffffff;
+      font-family: "Roboto", sans-serif;      
    }
    ul{
     list-style: none;

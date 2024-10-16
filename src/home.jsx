@@ -1,12 +1,11 @@
-import { useContext } from "react";
+
 import { Abilities } from "./components/abilities";
 import { AboutMe } from "./components/aboutMe";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
-import { Projetcs } from "./components/projects";
 import { GlobalStyles } from "./globalStyles/styles";
-import { ThemeContext } from "./contexts/theme-contexts";
+import { MyProjects } from "./myProjects";
 
 export function Home() {
   const scrollToSection = (id) => {
@@ -15,7 +14,7 @@ export function Home() {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  const { theme } = useContext(ThemeContext)
+ 
   
     return(
       <>
@@ -23,9 +22,9 @@ export function Home() {
         <Hero />
         <AboutMe />
         <Abilities />
-        <Projetcs />
+        <MyProjects />
         <Footer />
-        <GlobalStyles theme={theme} />
+        <GlobalStyles />
       </>
     )
 }

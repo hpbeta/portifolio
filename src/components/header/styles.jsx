@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { HiOutlineLightBulb } from "react-icons/hi";
+
 
 export const ContainerHeader = styled.header`
   display: flex;
@@ -42,8 +42,4 @@ export const ContainerHeader = styled.header`
   }
 `;
 
-export const Icon = styled(HiOutlineLightBulb)`
-  width: 28px;
-  height: 28px;
-  cursor: pointer;
-`;
+

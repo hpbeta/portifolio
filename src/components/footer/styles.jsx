@@ -5,8 +5,9 @@ export const Container = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(90deg, rgba(0,0,0,1) 1%, rgba(0,0,0,1) 9%, rgba(128,128,128,1) 100%);
+  
   padding: 50px;
+  border-top: 1px solid #808080;
   margin-top: 20px;
   color: #000;
   h2 {
