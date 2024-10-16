@@ -1,19 +1,15 @@
-import Projectcep from "../assets/images/image-cep.png"
-import ProjecCompras from "../assets/images/image-compras.png"
+import Projectcep from "../assets/images/via-cep.png"
+import ProjecListaDeTarefas from "../assets/images/lista-de-tarefas.png"
 import ProjecFormulario from "../assets/images/image-formulario-js.png"
-import ProjectGithub from "../assets/images/image-github.png"
-import ProjecPokedex from "../assets/images/image-pokedex.png"
-import ProjectCountries from "../assets/images/image-countries.png"
-import ProjectList from "../assets/images/image-list.png"
+import ProjectGithub from "../assets/images/github-react.png"
+import ProjectTranslator from "../assets/images/translator.png"
 
 const data = [
-    {id: "1", image: Projectcep, url:"https://github.com/hpbeta/via-cep" },
-    {id: "2", image: ProjecCompras },
+    {id: "1", image: Projectcep, url:"https://github.com/hpbeta/buscador-de-cep" },
+    {id: "2", image: ProjecListaDeTarefas, url: 'https://github.com/hpbeta/lista-de-tarefas'  }, 
     {id: "3", image: ProjecFormulario, url: "https://github.com/hpbeta/quest-js-intermediario" },
-    {id: "4", image: ProjectGithub, url: "https://github.com/hpbeta/project-github-react" },
-    {id: "5", image: ProjecPokedex, url:"https://github.com/hpbeta/pokedex-react"},
-    {id: "6", image: ProjectCountries, url: "https://github.com/hpbeta/rest-countries" },
-    {id: "7", image: ProjectList, url: "https://github.com/hpbeta/lista-de-presenca" }
+    {id: "4", image: ProjectGithub, url: "https://github.com/hpbeta/github-react" },
+    {id: "5", image: ProjectTranslator, url:"https://github.com/hpbeta/translator-api"},
 ]
 
 export default data
