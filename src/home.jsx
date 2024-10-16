@@ -4,8 +4,9 @@ import { AboutMe } from "./components/aboutMe";
 import { Footer } from "./components/footer";
 import { Header } from "./components/header";
 import { Hero } from "./components/hero";
+import { MyProjects } from "./components/myProjects";
 import { GlobalStyles } from "./globalStyles/styles";
-import { MyProjects } from "./myProjects";
+
 
 
 export function Home() {
