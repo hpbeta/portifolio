@@ -7,6 +7,7 @@ import { Hero } from "./components/hero";
 import { GlobalStyles } from "./globalStyles/styles";
 import { MyProjects } from "./myProjects";
 
+
 export function Home() {
   const scrollToSection = (id) => {
     const element = document.getElementById(id);

@@ -30,7 +30,6 @@ export const ContainerHeader = styled.header`
     gap: 20px;
     padding: 30px;
 
-   
     a {
       &:hover {
         color: #ffff00;
@@ -38,10 +37,8 @@ export const ContainerHeader = styled.header`
         cursor: pointer;
       }
     }
-    @media(max-width: 414px){
+    @media (max-width: 414px) {
       font-size: 12px;
     }
   }
 `;
-
-
