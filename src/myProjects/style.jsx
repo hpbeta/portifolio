@@ -16,6 +16,9 @@ export const ContainerProject = styled.div`
   gap: 50px;
   margin-top: 50px;
   margin-bottom: 30px;
+  border: 1px solid #808080;
+  padding: 25px 20px;
+  border-radius: 10px;
 
   @media (max-width: 1200px) {
     display: flex;
