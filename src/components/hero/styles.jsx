@@ -6,7 +6,7 @@ align-items: center;
 justify-content: center;
 gap: 150px;
 margin-top: 30px;
-@media (max-width: 688px) {
+@media (max-width: 855px) {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -15,6 +15,11 @@ img{
     width: 500px;
     height: 500px;
     border-radius: 50%;
+
+    @media (max-width: 855px) {
+        margin: -90px 0;
+  }
+
     @media(max-width: 1024px){
         width: 300px;
         height: 300px;

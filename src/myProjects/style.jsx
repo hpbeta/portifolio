@@ -7,8 +7,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: #202124;
   color: #ffffff;
-  margin-top: 70px;
- 
+  margin-top: 70px; 
 `;
 
 export const ContainerProject = styled.div`
@@ -17,6 +16,19 @@ export const ContainerProject = styled.div`
   gap: 50px;
   margin-top: 50px;
   margin-bottom: 30px;
+
+  @media(max-width: 1200px) {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 0;
+
+        p, h2, li{
+            display: none;
+    
+        }
+        
+  }
 
   img {
     width: 600px;
@@ -27,6 +39,15 @@ export const ContainerProject = styled.div`
       box-shadow: 0px 0px 0px 4px rgba(248, 246, 246, 0.918),
         0px 10px 15px -3px rgba(255, 255, 255, 0.966);
     }
+
+    @media(max-width: 1200px) {
+      width: 550px;
+        
+  }
+    @media(max-width: 560px) {
+      width: 350px;
+        
+  }
   }
   p {
     width: 500px;

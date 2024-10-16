@@ -25,11 +25,17 @@ export const ContainerAboutMe = styled.div`
     @media (max-width: 1024px) {
       width: 850px;
     }
+    @media (max-width: 867px) {
+      width: 690px;
+      margin-bottom: -90px;
+      
+    }
     @media (max-width: 688px) {
-      width: 600px;
+      width: 550px;
     }
     @media (max-width: 414px) {
       width: 350px;
+      
     }
   }
 `;

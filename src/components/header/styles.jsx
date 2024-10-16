@@ -1,11 +1,11 @@
 import { styled } from "styled-components";
 
-
 export const ContainerHeader = styled.header`
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 1400px;
+  border-bottom: 1px solid #808080;
   @media (max-width: 688px) {
     display: flex;
     flex-direction: column;
@@ -29,6 +29,8 @@ export const ContainerHeader = styled.header`
     display: flex;
     gap: 20px;
     padding: 30px;
+
+   
     a {
       &:hover {
         color: #ffff00;
