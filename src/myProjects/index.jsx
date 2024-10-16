@@ -11,6 +11,7 @@ export function MyProjects() {
     <Container id="projects">
       <h1>Projetos</h1>
       <ContainerProject>
+        <a target="_blank" href="https://github.com/hpbeta/buscador-de-cep">
         <div>
           <h2>Projeto via-cep</h2>
           <p>
@@ -38,9 +39,11 @@ export function MyProjects() {
         <a target="_blank" href="https://github.com/hpbeta/buscador-de-cep">
           <img src={Projectcep} alt="Projeto via cep" />
         </a>
+        </a>
       </ContainerProject>
 
       <ContainerProject>
+        <a target="_blank" href="https://github.com/hpbeta/quest-js-intermediario">
         <a
           target="_blank"
           href="https://github.com/hpbeta/quest-js-intermediario"
@@ -69,10 +72,12 @@ export function MyProjects() {
             </li>
           </ContainerList>
         </div>
+        </a>
       </ContainerProject>
 
       <ContainerProject>
-        <div>
+       <a target="_blank" href="https://github.com/hpbeta/github-react">
+       <div>
           <h2>Projeto Git-Hub</h2>
           <p>
             Nesse projeto, desenvolvo uma aplicação que consome a API do GitHub
@@ -98,9 +103,11 @@ export function MyProjects() {
         <a target="_blank" href="https://github.com/hpbeta/github-react">
           <img src={ProjectGithub} alt="Projeto Git-Hub" />
         </a>
+       </a>
       </ContainerProject>
 
       <ContainerProject>
+        <a target="_blank" href="https://github.com/hpbeta/translator-api">
         <a target="_blank" href="https://github.com/hpbeta/translator-api">
           <img src={ProjectTranslator} alt="Projeto tradutor" />
         </a>
@@ -128,9 +135,12 @@ export function MyProjects() {
             </li>
           </ContainerList>
         </div>
+        </a>
       </ContainerProject>
+
       <ContainerProject>
-        <div>
+       <a target="_blank" href="https://github.com/hpbeta/lista-de-tarefas">
+       <div>
           <h2>Projeto Lista de tarefas</h2>
           <p>
             Nesse projeto, desenvolvo uma aplicação de lista de tarefas (to-do
@@ -158,6 +168,7 @@ export function MyProjects() {
         <a target="_blank" href="https://github.com/hpbeta/lista-de-tarefas">
           <img src={ProjecListaDeTarefas} alt="Projeto via cep" />
         </a>
+       </a>
       </ContainerProject>
     </Container>
   );

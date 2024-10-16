@@ -15,6 +15,12 @@ export const Container = styled.div`
     width: 500px;
     height: 500px;
     border-radius: 50%;
+    animation: float 3s ease-in-out infinite;
+    transition: 0.3s;
+    &:hover {
+      box-shadow: 0px 0px 0px 4px rgba(248, 246, 246, 0.918),
+        0px 10px 15px -3px rgba(255, 255, 255, 0.966);
+    }
 
     @media (max-width: 855px) {
       margin: -90px 0;
@@ -37,5 +43,17 @@ export const Container = styled.div`
   }
   h3 {
     font-size: 25px;
+  }
+
+  @keyframes float {
+    0% {
+      transform: translatey(0); 
+    }
+    50% {
+      transform: translatey(-10px); 
+    }
+    100% {
+      transform: translatey(0); 
+    }
   }
 `;
