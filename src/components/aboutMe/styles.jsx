@@ -33,7 +33,11 @@ export const ContainerAboutMe = styled.div`
     @media (max-width: 688px) {
       width: 550px;
     }
-    @media (max-width: 414px) {
+    @media (max-width: 574px) {
+      width: 450px;
+      
+    }
+    @media (max-width: 470px) {
       width: 350px;
       
     }

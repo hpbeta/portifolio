@@ -7,7 +7,7 @@ export const Container = styled.div`
   align-items: center;
   background-color: #202124;
   color: #ffffff;
-  margin-top: 70px; 
+  margin-top: 70px;
 `;
 
 export const ContainerProject = styled.div`
@@ -17,17 +17,25 @@ export const ContainerProject = styled.div`
   margin-top: 50px;
   margin-bottom: 30px;
 
-  @media(max-width: 1200px) {
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        gap: 0;
+  @media (max-width: 1200px) {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 0;
+    height: 350px;
 
-        p, h2, li{
-            display: none;
-    
-        }
-        
+    p,
+    h2,
+    li {
+      display: none;
+    }
+  }
+
+  @media (max-width: 592px) {
+    height: 350px;
+  }
+  @media (max-width: 548px) {
+    height: 250px;
   }
 
   img {
@@ -40,14 +48,12 @@ export const ContainerProject = styled.div`
         0px 10px 15px -3px rgba(255, 255, 255, 0.966);
     }
 
-    @media(max-width: 1200px) {
+    @media (max-width: 1200px) {
       width: 550px;
-        
-  }
-    @media(max-width: 560px) {
+    }
+    @media (max-width: 560px) {
       width: 350px;
-        
-  }
+    }
   }
   p {
     width: 500px;
@@ -62,10 +68,8 @@ export const ContainerList = styled.div`
   gap: 10px;
   margin-top: 30px;
 
-  svg{
-   font-size: 30px;
-   cursor: pointer;
-   
-  
+  svg {
+    font-size: 30px;
+    cursor: pointer;
   }
 `;
