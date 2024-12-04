@@ -20,6 +20,7 @@ export const ContainerProject = styled.div`
   padding: 25px 20px;
   border-radius: 10px;
   transition: 0.3s;
+  height: 400px;
   &:hover {
       box-shadow: 0px 0px 0px 1px rgba(248, 246, 246, 0.918),
         0px 10px 15px -3px rgba(255, 255, 255, 0.966);

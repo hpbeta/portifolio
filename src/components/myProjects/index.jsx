@@ -1,15 +1,99 @@
 import Projectcep from "../../assets/images/via-cep.png";
-import ProjecListaDeTarefas from "../../assets/images/lista-de-tarefas.png";
-import ProjecFormulario from "../../assets/images/image-formulario-js.png";
+import ProjectCoffeDelivery from "../../assets/images/coffe-delivery.png";
+import ProjecDtMoney from "../../assets/images/dt-money.png";
 import ProjectGithub from "../../assets/images/github-react.png";
 import ProjectTranslator from "../../assets/images/translator.png";
+import ProjectPomodoro from "../../assets/images/pomodoro.png";
 import { Container, ContainerList, ContainerProject } from "./style";
 import { FaHtml5, FaReact, FaJs, FaCss3Alt } from "react-icons/fa";
+import { BiLogoTypescript } from "react-icons/bi";
 
 export function MyProjects() {
   return (
     <Container id="projects">
       <h1>Projetos</h1>
+
+      <ContainerProject>
+        <a target="_blank" href="https://github.com/hpbeta/coffe-delivery">
+          <div>
+            <h2>Projeto Coffe Delivery</h2>
+            <p>
+              A aplicação simula uma experiência de compras de café online, com
+              foco em funcionalidade e design.
+            </p>
+            <ContainerList>
+              <li>
+                <FaHtml5 />
+              </li>
+              <li>
+                <FaReact />
+              </li>
+              <li>
+                <BiLogoTypescript />
+              </li>
+              <li>
+                <FaCss3Alt />
+              </li>
+            </ContainerList>
+          </div>
+          <img src={ProjectCoffeDelivery} alt="Projeto Coffe Delivery" />
+        </a>
+      </ContainerProject>
+
+      <ContainerProject>
+        <a target="_blank" href="https://github.com/hpbeta/dt-money">
+          <img src={ProjecDtMoney} alt="Projeto Dt-Money" />
+          <div>
+            <h2>Dt-Money</h2>
+            <p>
+              Nesse projeto, desenvolvo um projeto que simula um controle
+              financeiro, onde dá pra registrar e gerenciar transações de um
+              jeito bem prático.
+            </p>
+            <ContainerList>
+              <li>
+                <FaHtml5 />
+              </li>
+              <li>
+                <FaReact />
+              </li>
+              <li>
+                <FaCss3Alt />
+              </li>
+              <li>
+                <BiLogoTypescript />
+              </li>
+            </ContainerList>
+          </div>
+        </a>
+      </ContainerProject>
+
+      <ContainerProject>
+        <a target="_blank" href="https://github.com/hpbeta/project-pomodoro">
+          <img src={ProjectPomodoro} alt="Projeto Pomodoro" />
+          <div>
+            <h2>Projeto Pomodoro</h2>
+            <p>
+              Nesse projeto, desenvolvi uma aplicação Pomodoro para ajudar na organização do tempo e produtividade.
+            </p>
+            <ContainerList>
+              <li>
+                <FaHtml5 />
+              </li>
+              <li>
+                <FaReact />
+              </li>
+              <li>
+                <FaCss3Alt />
+              </li>
+              <li>
+                <BiLogoTypescript />
+              </li>
+            </ContainerList>
+          </div>
+        </a>
+      </ContainerProject>
+
       <ContainerProject>
         <a target="_blank" href="https://github.com/hpbeta/buscador-de-cep">
           <div>
@@ -41,35 +125,7 @@ export function MyProjects() {
         </a>
       </ContainerProject>
 
-      <ContainerProject>
-        <a
-          target="_blank"
-          href="https://github.com/hpbeta/quest-js-intermediario">
-          <img src={ProjecFormulario} alt="Projeto formulário com js" />
-          <div>
-            <h2>Projeto Formulário</h2>
-            <p>
-              Nesse projeto, desenvolvo um formulário com validação utilizando
-              JavaScript. A aplicação permite que os usuários preencham
-              informações, como nome, e-mail e mensagem. Ao enviar o formulário,
-              o JavaScript verifica se todos os campos obrigatórios estão
-              preenchidos corretamente, exibindo mensagens de erro quando
-              necessário.
-            </p>
-            <ContainerList>
-              <li>
-                <FaHtml5 />
-              </li>
-              <li>
-                <FaJs />
-              </li>
-              <li>
-                <FaCss3Alt />
-              </li>
-            </ContainerList>
-          </div>
-        </a>
-      </ContainerProject>
+     
 
       <ContainerProject>
         <a target="_blank" href="https://github.com/hpbeta/github-react">
@@ -129,36 +185,6 @@ export function MyProjects() {
               </li>
             </ContainerList>
           </div>
-        </a>
-      </ContainerProject>
-
-      <ContainerProject>
-        <a target="_blank" href="https://github.com/hpbeta/lista-de-tarefas">
-          <div>
-            <h2>Projeto Lista de tarefas</h2>
-            <p>
-              Nesse projeto, desenvolvo uma aplicação de lista de tarefas (to-do
-              list), onde os usuários podem adicionar, marcar como concluídas e
-              remover tarefas. A interface permite que o usuário insira uma nova
-              tarefa em um campo de texto, visualize a lista completa de tarefas
-              pendentes e gerencie suas atividades com facilidade.
-            </p>
-            <ContainerList>
-              <li>
-                <FaHtml5 />
-              </li>
-              <li>
-                <FaReact />
-              </li>
-              <li>
-                <FaJs />
-              </li>
-              <li>
-                <FaCss3Alt />
-              </li>
-            </ContainerList>
-          </div>
-          <img src={ProjecListaDeTarefas} alt="Projeto via cep" />
         </a>
       </ContainerProject>
     </Container>
