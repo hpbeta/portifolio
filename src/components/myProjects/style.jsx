@@ -3,86 +3,86 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  background-color: #202124;
-  color: #ffffff;
-  margin-top: 170px;
+  justify-content: center;
+
+  h1 {
+    margin-top: 80px;
+  }
 `;
 
 export const ContainerProject = styled.div`
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 50px;
-  margin-top: 70px;
+  margin-top: 80px;
   margin-bottom: 30px;
-  border: 1px solid #808080;
-  padding: 25px 20px;
-  border-radius: 10px;
-  transition: 0.3s;
   height: 400px;
-  &:hover {
-      box-shadow: 0px 0px 0px 1px rgba(248, 246, 246, 0.918),
-        0px 10px 15px -3px rgba(255, 255, 255, 0.966);
-    }
-    cursor: pointer;
+  border: 1px solid #808080;
+  padding: 20px 30px;
+  border-radius: 10px;
 
-  @media (max-width: 1200px) {
+  @media (max-width: 820px) {
+    height: 500px;
+  }
+
+  a {
     display: flex;
-    flex-direction: column;
-    text-align: center;
-    gap: 0;
-    height: 350px;
+    align-items: center;
+    gap: 40px;
 
-    p,
-    h2,
-    li {
-      display: none;
+    @media (max-width: 820px) {
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      width: 400px;
+
+      img {
+        width: 400px;
+      }
     }
-  }
+    @media (max-width: 430px) {
+      width: 350px;
+    }
+    @media (max-width: 393px) {
+      width: 300px;
 
-  @media (max-width: 592px) {
-    height: 350px;
-  }
-  @media (max-width: 548px) {
-    height: 250px;
+      img {
+        width: 340px;
+      }
+    }
   }
 
   img {
     width: 600px;
-    border-radius: 8px;
-    transition: 0.3s;
-
-
-
-    @media (max-width: 1200px) {
-      width: 550px;
-    }
-    @media (max-width: 560px) {
-      width: 350px;
-    }
-  }
-  p {
-    width: 500px;
-    margin-top: 10px;
-    line-height: 20px;
-  }
-
-  a{
-    display: flex;
-    align-items: center;
-    gap: 30px;
   }
 `;
 
-export const ContainerList = styled.div`
-  list-style: none;
+export const ContainerInfo = styled.div`
+  width: 600px;
+
+  h3 {
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 820px) {
+    width: 300px;
+    margin: 0 auto;
+  }
+`;
+
+export const Containerlist = styled.ul`
   display: flex;
   gap: 10px;
-  margin-top: 30px;
+  margin-top: 20px;
+  list-style: none;
 
   svg {
-    font-size: 30px;
-    cursor: pointer;
+    font-size: 25px;
+  }
+
+  @media (max-width: 820px) {
+    justify-content: center;
   }
 `;
