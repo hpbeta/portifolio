@@ -1,9 +1,10 @@
-import ReactDOM from "react-dom/client";
-import React from "react";
-import { Home } from "./home.jsx";
-import "swiper/css/scrollbar";
-import "swiper/css/effect-coverflow";
+import { StrictMode } from 'react'
+import { createRoot } from 'react-dom/client'
+import './index.css'
+import App from './App.jsx'
 
-ReactDOM.createRoot(document.getElementById("root")).render(
-  <React.StrictMode>{<Home />}</React.StrictMode>
-);
+createRoot(document.getElementById('root')).render(
+  <StrictMode>
+    <App />
+  </StrictMode>,
+)
