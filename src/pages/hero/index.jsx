@@ -30,7 +30,7 @@ export function Hero() {
           <a
             href="/curriculo.pdf"
             download
-            className="border border-gray-200 cursor-pointer hover:bg-blue-400 px-4 py-2 rounded-md transition-all text-center"
+            className="border border-gray-200 cursor-pointer hover:bg-blue-400 hover:text-white px-4 py-2 rounded-md transition-all text-center"
           >
             Download CV
           </a>
